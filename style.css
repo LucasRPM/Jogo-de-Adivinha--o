@@ -1,0 +1,94 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilo do body */
+body {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: #f1f1f1;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    margin-bottom: 30px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #ffcc00;
+}
+
+header h3 {
+    font-weight: normal;
+    margin: 8px 0;
+}
+
+/* Caixa de input */
+label {
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="number"] {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    width: 200px;
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+/* Botão */
+button {
+    background: #ffcc00;
+    color: #222;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease, background 0.2s ease;
+}
+
+button:hover {
+    background: #ffdd33;
+    transform: scale(1.05);
+}
+
+button:active {
+    background: #e6b800;
+    transform: scale(0.98);
+}
+
+/* Mensagens */
+#contagemTentativas {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #00e6e6;
+}
+
+#Mensagem {
+    margin-top: 15px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #ff6666;
+    /* pode mudar dinamicamente no JS */
+}
