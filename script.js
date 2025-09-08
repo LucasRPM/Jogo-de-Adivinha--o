@@ -71,5 +71,5 @@ function reiniciarJogo() {
     document.getElementById("contagemTentativas").textContent = "Numero de tentativas: " + quantidadeTentativas;
 
     // Mostra no console o número sorteado (apenas para testes/debug)
-    console.log(numero_secreto);
+    //console.log(numero_secreto);
 }
